@@ -329,7 +329,7 @@ function resetTable() {
 
 <style scoped>
 .table {
-  width: min(980px, 100%);
+  width: min(1100px, 100%);
   margin: 0 auto;
   padding: 2rem 1.25rem 3rem;
   animation: rise 0.7s ease both;

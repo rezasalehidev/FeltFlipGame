@@ -1,14 +1,39 @@
-# FlipForge
+# FeltFlip
 
-Simple Vue 3 memory game with CSS 3D card flips.
+Vue 3 + TypeScript poker demo with a Three.js 3D table. Play 5-card draw against AI bots.
 
-## Run
+## Live demo
+
+**[https://felt-flip-game.vercel.app/](https://felt-flip-game.vercel.app/)**
+
+### Login
+
+| Field    | Value        |
+| -------- | ------------ |
+| Username | `Reza`       |
+| Password | `QWE123456!` |
+
+## Tech stack
+
+- Vue 3 + TypeScript
+- Vite
+- Three.js (3D poker table & cards)
+- Yarn
+- Deployed on Vercel
+
+## Run locally
 
 ```bash
 yarn
 yarn dev
 ```
 
-## Play
+Open `http://localhost:5173/`
 
-Flip two cards at a time. Match all pairs to win.
+## How to play
+
+1. Sign in with the demo account above
+2. Press **Play** — you and 3 bots ante into the pot
+3. Click cards to **HOLD**, then **Draw**
+4. Best hand wins the pot
+5. Click a player name to see chips, wins, and score

@@ -1,4 +1,4 @@
-import type { Card } from '../types'
+import type { Card } from '../../types'
 
 const W = 384
 const H = 540
