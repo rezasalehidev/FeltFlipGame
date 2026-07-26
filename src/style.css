@@ -1,0 +1,37 @@
+:root {
+  color: #f7f2e4;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(240, 193, 75, 0.18), transparent 55%),
+    radial-gradient(circle at 15% 80%, rgba(27, 77, 62, 0.55), transparent 40%),
+    radial-gradient(circle at 85% 70%, rgba(12, 40, 34, 0.9), transparent 35%),
+    linear-gradient(165deg, #14352c 0%, #0a1f1a 45%, #071612 100%);
+  background-attachment: fixed;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
